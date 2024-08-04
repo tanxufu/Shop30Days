@@ -1,0 +1,32 @@
+.form {
+    &__label {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.8;
+        color: var(--text-color);
+    }
+
+    &__input {
+        margin-top: 4px;
+        padding: 8px 16px;
+        font-size: 1.6rem;
+        line-height: 1.8;
+        border-radius: 4px;
+        border: 1px solid var(--border-color);
+        background: (--white);
+        transition: border 0.25s;
+
+        &:focus {
+            border: 1px solid var(--primary);
+        }
+    }
+
+    &__error {
+        margin-top: 8px;
+        margin-left: 2px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        height: 16px;
+        color: #e23636;
+    }
+}

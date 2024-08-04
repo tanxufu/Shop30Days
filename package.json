@@ -1,0 +1,65 @@
+{
+    "name": "30days_shop",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@hookform/resolvers": "^3.9.0",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.7.2",
+        "classnames": "^2.5.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-hook-form": "^7.52.1",
+        "react-query": "^3.39.3",
+        "react-router-dom": "^6.25.0",
+        "react-scripts": "5.0.1",
+        "react-toastify": "^10.0.5",
+        "sass": "^1.77.8",
+        "web-vitals": "^2.1.4",
+        "yup": "^1.4.0"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject",
+        "lint": "eslint --ext js,jsx src/",
+        "lint:fix": "eslint --fix --ext js,jsx src/",
+        "prettier": "prettier --check \"src/**/(*.jsx|*.js|*.css|*.scss)\"",
+        "prettier:fix": "prettier --write \"src/**/(*.jsx|*.js|*.css|*.scss)\""
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "babel-plugin-module-resolver": "^5.0.2",
+        "customize-cra": "^1.0.0",
+        "date-fns": "^3.6.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jsx-a11y": "^6.9.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "eslint-plugin-react": "^7.34.4",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "prettier": "^3.3.3",
+        "react-app-rewired": "^2.2.1"
+    }
+}
